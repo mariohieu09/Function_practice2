@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+  let count = 0;
+  function founding(x, z) {
+    y = x.toString();
+    console.log(y)
+    for (i = 0; i < y.length; i++) {
+      if (y[i] == z){
+        count++;
+      }
+      }
+    document.write("Số lần kí tự được tìm thấy trong chuỗi là: " + count);
+  }
+  x = prompt("Enter sth:");
+  z = prompt("Enter the kí tự:")
+  res = founding(x, z);
+
+</script>
+</body>
+</html>

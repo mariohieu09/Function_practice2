@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let num = parseInt(prompt("Nhập số:"));
+    // let sum = 1;
+    // let i;
+    // for(i = 1;  i <= num; i++ ){
+    //     sum = i * sum++;
+    //
+    // }document.write("Kết quả giai thừa số bạn vừa nhập: " + sum);
+    function tinh(num){
+        let sum = 1;
+        let i;
+        for(i = 1; i <= num; i++){
+            sum *= i;
+        }
+        return sum;
+    }
+    let res = tinh(num);
+    document.write("Kết quả giai thừa số bạn vừa nhập là: "+  res);
+</script>
+
+</body>
+</html>
